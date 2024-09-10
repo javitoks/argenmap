@@ -9,7 +9,7 @@
   border: none !important;*/
 }
 #iconCD img {
-  filter: contrast(70%);
+  filter: invert(100%); /*  contrast(70%); */
 }
 #cdOption1 {
   border-top-left-radius: 0px !important;
