@@ -950,8 +950,86 @@ li.active>div>a {
   font-size: 17px !important;
 }
 
+.leaflet-control-measure .leaflet-control-measure-toggle,
+.leaflet-control-measure .leaflet-control-measure-toggle:hover {
+  opacity: 1;
+  background-image: none;
+}
+
+.leaflet-control-measure .leaflet-control-measure-toggle::after {
+ content: '\f546';
+ position: absolute;
+ left: -2px;
+}
+
 .leaflet-control-measure-interaction.js-interaction {
-  background-color: var(--map-btn-bg-color);
+  /* background-color: var(--map-btn-bg-color); */
+  background-color: var(--btn-primary-color);
+}
+
+.leaflet-control-measure-interaction.js-interaction h3,
+.js-starthelp,
+.js-results.results,
+.js-results.results .heading {
+  color: var(--menu-title-text-color);
+}
+
+.js-results.results .heading {
+  font-weight: bold;  
+}
+
+.leaflet-draw-toolbar a {
+  background-image: none;
+}
+
+*::after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+.leaflet-draw-draw-polyline::after {
+  content: '\f5cb';
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 86%, 0 -5%);
+    clip-path: polygon(0 100%, 100% 100%, 100% 86%, 0 -5%);
+}
+
+.leaflet-draw-draw-polygon::after {
+  content: '\f5ee';
+}
+
+.leaflet-draw-draw-rectangle::after {
+  content: '\f5cb';
+}
+
+.leaflet-draw-draw-circle::after {
+  content: '\f111';
+}
+
+.leaflet-draw-draw-marker::after {
+  content: '\f3c5';
+}
+
+.leaflet-draw-edit-edit::after {
+  content: '\f044';
+}
+
+.leaflet-draw-edit-remove::after {
+  content: '\f1f8';
+}
+
+.leaflet-draw-edit-edit.leaflet-disabled::after {
+  content: '\f044';
+  opacity: 0.5;
+}
+
+.leaflet-draw-edit-remove.leaflet-disabled::after {
+  content: '\f1f8';
+  opacity: 0.5;
+}
+
+.leaflet-draw-draw-circlemarker::after {
+  content: '\f111';
+  font-weight: unset;
 }
 
 .leaflet-popup-content h3 {
@@ -1013,6 +1091,11 @@ li.active>div>a {
   padding-left: 0px;
   overflow: auto;
   max-height: 60vh;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #008dc9;
+  color: var(--menu-title-text-color)
 }
 
 .leaflet-popup-content {
@@ -1384,12 +1467,16 @@ input:checked.switch+label:after {
 }
 
 /* Control graticula */
-.leaflet-control-customgraticule {
+/* .leaflet-control-customgraticule {
   background-image: url(../images/grid.webp);
   background-size: 70% 70%;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
+
+a.leaflet-control-customgraticule::after {
+  content: '\f84c';
+ }
 
 .leaflet-control-customgraticule:hover {
   cursor: pointer;
@@ -1682,10 +1769,16 @@ input:checked.switch+label:after {
 }
 
 /* Icons and map btns */
+.leaflet-bar.leaflet-control,
+.leaflet-draw-toolbar.leaflet-bar {
+  border: 1px solid var(--lyr-menu-bg-color);
+  border-radius: var(--btn-border-radius)
+}
+
 .leaflet-bar a,
 .leaflet-bar a.leaflet-disabled {
-  color: var(--map-btn-color) !important;
-  background-color: var(--map-btn-bg-color);
+  color: var(--btn-hover-color) !important;
+  background-color: var(--btn-primary-color);
 }
 
 .leaflet-bar a:hover {

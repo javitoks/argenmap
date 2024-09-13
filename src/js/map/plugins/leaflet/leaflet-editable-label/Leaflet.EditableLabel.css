@@ -31,5 +31,6 @@
   height: inherit;
   background-position: right;
   background-repeat: no-repeat;
-  filter: opacity(70%);
+  filter: invert(100%) opacity(90%); /* To match any background color */
+  /* filter: opacity(70%); */
 }
