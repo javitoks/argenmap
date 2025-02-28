@@ -70,7 +70,7 @@
     "iconBar":"#4f4f4f"
     },
   "logo": {
-    "title":"Argenmap viewer",
+    "title":"Visor AOSC - Ente Regulador",
     "src": "src/styles/images/argenmap-banner-white.webp",
     "height": "",
     "width": "",
@@ -79,12 +79,12 @@
     "miniHeight": "",
     "miniWidth": "",
     "ministyle": "filter: drop-shadow(1px 1px 1px #103847); width: 128px;",
-    "link": "https://github.com/ign-argentina/argenmap"
+    "link": "www.aosc.gob.ar"
   },
   "logoText": {
-    "content": "Lorem Ipsum",
-    "title":"Lorem Ipsum",
-    "link": "#"
+    "content": "AOSC - Ente Regulador",
+    "title":"AOSC - Ente Regulador",
+    "link": "www.aosc.gob.ar"
   },
   "title": "Argenmap",
   "website": "https://github.com/ign-argentina/argenmap",
