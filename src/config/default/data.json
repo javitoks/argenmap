@@ -100,7 +100,7 @@
       "seccion": "servicios-aosc",
       "servicio": "wms",
       "version": "1.1.1",
-      "host": "http://gis.aguasdecorrientes.com/geoserver/Ente_Regulador/wms"
+      "host": "http://gis.aguasdecorrientes.com/geoserver/Ente_Regulador"
     },
     {
       "type": "wmslayer",
