@@ -99,7 +99,7 @@
       "class": "",
       "seccion": "servicios-aosc",
       "servicio": "wms",
-      "version": "1.1.1",
+      "version": "1.0.0",
       "host": "http://gis.aguasdecorrientes.com/geoserver/Ente_Regulador"
     },
     {
