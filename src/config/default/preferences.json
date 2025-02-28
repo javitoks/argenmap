@@ -86,8 +86,8 @@
     "title":"AOSC - Ente Regulador",
     "link": "www.aosc.gob.ar"
   },
-  "title": "Argenmap",
-  "website": "https://github.com/ign-argentina/argenmap",
+  "title": "Visor AOSC - Ente Regulador",
+  "website": "https://aosc.gob.ar",
   "favicon": "src/styles/images/favicon.ico",
   "geoprocessing": {
     "isActive": true,
