@@ -10,16 +10,16 @@
     "isActive": false
   },
   "metaTags": {
-    "title": "",
-    "description": "",
+    "title": "Visor AOSC - Ente Regulador",
+    "description": "AOSC - Ente Regulador",
     "image": ""
   },
   "analytics_ids": [],
   "excluded_plugins": ["minimap"],
   "mapConfig": {
     "center": {
-      "latitude": -40,
-      "longitude": -59
+      "latitude": -28.8615,
+      "longitude": -57.7112
     },
     "zoom": {
       "initial": 4,
