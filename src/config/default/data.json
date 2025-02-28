@@ -103,15 +103,15 @@
       "host": "http://gis.aguasdecorrientes.com/geoserver/Ente_Regulador/wms"
     },
     {
-      "type": "wfslayer",
+      "type": "wmslayer",
       "peso": 120,
       "nombre": "Geoportal Provincia de Corrientes",
       "short_abstract": "Geoportal Provincia de Corrientes",
       "class": "",
       "seccion": "servicios-provincia",
-      "servicio": "wfs",
-      "version": "2.0.0",
-      "host": "https://geoportal.corrientes.gob.ar/geoserver/wfs"
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://geoportal.corrientes.gob.ar/geoserver/wms"
     }
   ],
   "template": "ign-geoportal-basic"
