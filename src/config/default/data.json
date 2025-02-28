@@ -94,13 +94,13 @@
     {
       "type": "wmslayer",
       "peso": 70,
-      "nombre": "Industria y servicios",
-      "short_abstract": "Industrias, producción agropecuaria, minería, energía, comunicaciones, etc.",
+      "nombre": "Geoservicios Propios",
+      "short_abstract": "Geoservicios Propios",
       "class": "",
-      "seccion": "industria-servicios",
+      "seccion": "servicios-aosc",
       "servicio": "wms",
       "version": "1.0.0",
-      "host": "http://gis.aguasdecorrientes.com/geoserver/Ente_Regulador/wms"
+      "host": "https://gis.aguasdecorrientes.com/geoserver/Ente_Regulador/wms"
     },
     {
       "type": "wmslayer",
